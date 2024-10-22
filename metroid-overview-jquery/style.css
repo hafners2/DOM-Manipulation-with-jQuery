@@ -1,0 +1,117 @@
+@font-face {
+    font-family: header;
+    src: url("./fonts/SixtyfourConvergence-Regular-VariableFont_BLED\,SCAN\,XELA\,YELA.ttf");
+}
+
+@font-face {
+    font-family: alfacad;
+    src: url("./fonts/AfacadFlux-VariableFont_slnt\,wght.ttf");
+}
+body {
+    background-color: rgb(34, 33, 32);
+}
+
+header {
+    margin-top: 5%;
+    font-family: header;
+}
+
+h1 {
+    color: rgb(36, 225, 225);
+    font-size: 6vw;
+    text-align: center;
+}
+
+#games {
+    width: 90%;
+    margin: auto;
+}
+
+.top {
+    display: flex;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.child {
+    width: 30%;
+    padding: 40px;
+    overflow: hidden;
+}
+
+img {
+    width: 640px;
+    height: 640px;
+}
+
+p {
+    color: white;
+    font-size: 1.5vw;
+    font-family: alfacad;
+}
+
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    }
+  
+  .rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 0;
+    }
+  
+  .rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+    }
+  
+  .rslides img {
+    display: block;
+    height: auto;
+    width: 640px;
+    height: 640px;
+    float: left;
+    border: 0;
+    }
+
+    .rslides2 {
+        position: relative;
+        list-style: none;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        }
+      
+      .rslides2 li {
+        -webkit-backface-visibility: hidden;
+        position: absolute;
+        display: none;
+        left: 0;
+        top: 0;
+        }
+      
+      .rslides2 li:first-child {
+        position: relative;
+        display: block;
+        float: left;
+        }
+      
+      .rslides2 img {
+        display: block;
+        height: auto;
+        width: 640px;
+        height: 640px;
+        float: left;
+        border: 0;
+        }
